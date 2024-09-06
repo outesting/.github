@@ -1,0 +1,14 @@
+{
+    "name": "Octo Organization Golang Workflow",
+    "description": "Octo Organization Golang workflow template.",
+    "iconName": "example-icon",
+    "categories": [
+        "Go"
+    ],
+    "filePatterns": [
+        "package.json$",
+        "^Dockerfile",
+        ".*\\.md$",
+        "test.go"
+    ]
+}
