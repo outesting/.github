@@ -9,6 +9,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      TEST_VAR: ${{ vars.TEST_VAR }}
 
     steps:
       - uses: actions/checkout@v4
